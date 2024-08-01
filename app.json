@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "runtimeVersion": "1.0.0",
+    "name": "app",
+    "slug": "app",
+    "scheme": "app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier":  "com.elaaa.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.elaaa.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72a04041-434a-47e0-9e00-e994afdfd6a1"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/72a04041-434a-47e0-9e00-e994afdfd6a1"
+    },
+    "owner": "elaaa",
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
